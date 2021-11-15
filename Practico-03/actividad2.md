@@ -1,7 +1,13 @@
-## Actividad 1
+## Actividad 2
 
-El puerto abierto es el 5000
-![captura1](https://raw.githubusercontent.com/EmiCussino/Ing-Soft-3/main/Practico-03/images/captura1.png)
+# Explicar cómo funciona el sistema
+ 
+ Se crea una Api donde se importan una base de datos "Redis" y un "Flask" que sirve para crear pequeñas aplicaciones. "_name_" sera nuestro valor de referencia de la api.  La aplicacion consiste de un contador de visitas que se incrementa al visitar el endpoint
+ ![captura3] 
 
-informacion de bridge: 
-![captura2](https://github.com/EmiCussino/Ing-Soft-3/blob/23439758b14140b8223f61d70ccbe557a8cc050c/Practico-03/images/captura2.png)
+¿Para qué se sirven y porque están los parámetros -e en el segundo Docker run del ejercicio 1?
+¿Qué pasa si ejecuta docker rm -f web y vuelve a correr docker run -d --net mybridge -e REDIS_HOST=db -e REDIS_PORT=6379 -p 5000:5000 --name web alexisfr/flask-app:latest ?
+¿Qué occure en la página web cuando borro el contenedor de Redis con docker rm -f db?
+Y si lo levanto nuevamente con docker run -d --net mybridge --name db redis:alpine ?
+¿Qué considera usted que haría falta para no perder la cuenta de las visitas?
+Para eliminar los elementos creados corremos:
