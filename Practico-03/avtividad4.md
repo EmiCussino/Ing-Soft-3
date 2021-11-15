@@ -7,15 +7,15 @@
 ## Una vez terminado acceder a http://localhost:5000/ y http://localhost:5001
 ## Emitir un voto y ver el resultado en tiempo real.
 
-![captura9](https://github.com/EmiCussino/Ing-Soft-3/blob/2e1c02ddfaa54f964446f96b035aa14f4ef99d1a/Practico-03/images/captura9.png)
+![captura9](https://github.com/EmiCussino/Ing-Soft-3/blob/faa10e81cbed0739af751a399501dc645a207835/Practico-03/images/captura9.png)
 
 
-![captura10](https://github.com/EmiCussino/Ing-Soft-3/blob/2e1c02ddfaa54f964446f96b035aa14f4ef99d1a/Practico-03/images/captura10.png)
+![captura10](https://github.com/EmiCussino/Ing-Soft-3/blob/faa10e81cbed0739af751a399501dc645a207835/Practico-03/images/captura10.png)
 
 
 ## Para emitir más votos, abrir varios navegadores diferentes para poder hacerlo
 
-![captura11](https://github.com/EmiCussino/Ing-Soft-3/blob/2e1c02ddfaa54f964446f96b035aa14f4ef99d1a/Practico-03/images/captura11.png)
+![captura11](https://github.com/EmiCussino/Ing-Soft-3/blob/faa10e81cbed0739af751a399501dc645a207835/Practico-03/images/captura11.png)
 
 
 Explicar como está configurado el sistema, puertos, volumenes componenetes involucrados, utilizar el Docker compose como guía.
